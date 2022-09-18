@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (7.1.0):
+    - GoogleMaps/Maps (= 7.1.0)
+  - GoogleMaps/Base (7.1.0)
+  - GoogleMaps/Maps (7.1.0):
+    - GoogleMaps/Base
+  - YandexMapsMobile (4.2.0-lite)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - YandexMapsMobile (= 4.2.0-lite)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - YandexMapsMobile
+
+SPEC CHECKSUMS:
+  GoogleMaps: bc56ffb0324e345a2d91bac1a64a920f9c8f1b20
+  YandexMapsMobile: d9797da83ebc5f9be9be54e67799c17a763af217
+
+PODFILE CHECKSUM: 41dcf621d038f242553cd52cdd4c1ecc0ba1787d
+
+COCOAPODS: 1.11.3
