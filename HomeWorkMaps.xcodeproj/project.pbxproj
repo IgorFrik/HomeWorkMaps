@@ -13,6 +13,8 @@
 		7860DEEA28D783CE004BF397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7860DEE828D783CE004BF397 /* Main.storyboard */; };
 		7860DEEC28D783D0004BF397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7860DEEB28D783D0004BF397 /* Assets.xcassets */; };
 		7860DEEF28D783D0004BF397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7860DEED28D783D0004BF397 /* LaunchScreen.storyboard */; };
+		78AD32C328D784E200C7AAE8 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD32C228D784E200C7AAE8 /* GoogleViewController.swift */; };
+		78AD32C528D784F200C7AAE8 /* YandexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD32C428D784F200C7AAE8 /* YandexViewController.swift */; };
 		7C7B6E7D90868FE62F138671 /* Pods_HomeWorkMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB9C2DCABE2F21A424B3C70 /* Pods_HomeWorkMaps.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		7860DEEB28D783D0004BF397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7860DEEE28D783D0004BF397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7860DEF028D783D0004BF397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AD32C228D784E200C7AAE8 /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
+		78AD32C428D784F200C7AAE8 /* YandexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexViewController.swift; sourceTree = "<group>"; };
 		CFB9C2DCABE2F21A424B3C70 /* Pods_HomeWorkMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWorkMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +52,6 @@
 				4EAE41C73BB736A43D67C052 /* Pods-HomeWorkMaps.debug.xcconfig */,
 				39D3DE252C4EF2295607DB26 /* Pods-HomeWorkMaps.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +79,8 @@
 				7860DEE228D783CE004BF397 /* AppDelegate.swift */,
 				7860DEE428D783CE004BF397 /* SceneDelegate.swift */,
 				7860DEE628D783CE004BF397 /* ViewController.swift */,
+				78AD32C228D784E200C7AAE8 /* GoogleViewController.swift */,
+				78AD32C428D784F200C7AAE8 /* YandexViewController.swift */,
 				7860DEE828D783CE004BF397 /* Main.storyboard */,
 				7860DEEB28D783D0004BF397 /* Assets.xcassets */,
 				7860DEED28D783D0004BF397 /* LaunchScreen.storyboard */,
@@ -207,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AD32C528D784F200C7AAE8 /* YandexViewController.swift in Sources */,
 				7860DEE728D783CE004BF397 /* ViewController.swift in Sources */,
+				78AD32C328D784E200C7AAE8 /* GoogleViewController.swift in Sources */,
 				7860DEE328D783CE004BF397 /* AppDelegate.swift in Sources */,
 				7860DEE528D783CE004BF397 /* SceneDelegate.swift in Sources */,
 			);
